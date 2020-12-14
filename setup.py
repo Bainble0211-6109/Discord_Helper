@@ -4,7 +4,7 @@ with open('README.md', encoding='utf-8') as f:
     long_description = f.read()
 
 setup(
-    name = 'Discord_Helper',
+    name = 'dpy_helper',
     version = '0.0.1',
     description = 'discord.py를 이용한 봇개발에 도움을 주는 코드입니다!',
     author = 'Bainble0211',
@@ -15,7 +15,7 @@ setup(
         "Source":"https://github.com/Bainble0211-6109/Discord_Helper",
         "Tracker":"https://github.com/Bainble0211-6109/Discord_Helper/issues"
     },
-    install_requires =  ['aiohttp', 'asyncio'],
+    install_requires =  ['aiohttp', 'asyncio', 'discord.py'],
     keywords = ['discord', 'discord.py', 'discord_helper', 'discord-helper', 'DiscordHelper'],
     license='GPL-3.0',
     long_description = long_description,
